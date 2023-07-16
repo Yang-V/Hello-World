@@ -4,6 +4,6 @@ for i in range(15):
     print(i, end = " ")
 
 for j in range(15):
-    print(i, end = " ")
+    print(j, end = " ")
 
 print("End")
