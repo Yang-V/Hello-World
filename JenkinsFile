@@ -1,0 +1,17 @@
+pipeline {
+    agent any
+}
+
+stages {
+    stage("Python script") {
+        steps {
+           sh  " /bin/python3 hello-world.py"
+        }
+    }
+
+    stage("Bash script") {
+        steps {
+           sh  " bash scripts.sh"
+        }
+    }
+}
