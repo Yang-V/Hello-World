@@ -1,6 +1,6 @@
 print("Hello world")
 
-for i in range(20):
+for i in range(15):
     print(i, end = " ")
 
 print("End")
